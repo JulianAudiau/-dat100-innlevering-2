@@ -6,7 +6,12 @@ public class Tabeller {
 	public static void skrivUt(int[] tabell) {
 
 		// TODO
-		throw new UnsupportedOperationException("Metoden skrivUt ikke implementert");
+        int [] tabellHeltall = {0,2,4,6,8};
+
+        for(int i = 0; i < tabellHeltall.length; i++){
+            System.out.println(tabellHeltall[i]);
+        }
+
 
 	}
 
